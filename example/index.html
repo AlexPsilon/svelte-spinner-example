@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="../dist/index.js"></script>
+  <script>
+    const spinner = new Spinner({
+        target: document.querySelector('#root'),
+        props: {
+            size: "50",
+            speed: "750",
+            color: "#A82124",
+            thickness: "2",
+            gap: "40"
+        }
+    })
+  </script>
+</body>
+</html>
